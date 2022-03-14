@@ -2,9 +2,7 @@ import os
 from discord.ext import commands
 from AntiScam import AntiScam
 
-whitelist = [
-    582046574184759296
-]  # Here you can add the IDs of the users allowed to bypass the AntiScam system.
+whitelist = []  # Here you can add the IDs of the users allowed to bypass the AntiScam system.
 logs_channel = 950125030602330162  # Here you can add the ID of the channel where the logs will be sent.
 
 bot = commands.Bot(command_prefix='>')
